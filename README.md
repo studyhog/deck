@@ -3,7 +3,6 @@
 
 ## Emulation
 * [Emudeck](https://github.com/dragoonDorise/EmuDeck){:target="_blank" rel="noopener"}
-* [Vimm's Lair: Emulation Lair](https://vimm.net/?p=emulate){:target="_blank" rel="noopener"}
 * [PPSSPP](https://github.com/hrydgard/ppsspp){:target="_blank" rel="noopener"}
 * [RetroDECK](https://github.com/XargonWan/RetroDECK){:target="_blank" rel="noopener"}
 * [RPCS3](https://github.com/RPCS3/rpcs3){:target="_blank" rel="noopener"}
@@ -18,9 +17,6 @@
 ## Plugins
 * [PluginLoader](https://github.com/SteamDeckHomebrew/PluginLoader){:target="_blank" rel="noopener"}
 * [PowerTools](https://github.com/NGnius/PowerTools){:target="_blank" rel="noopener"}
-
-## Roms
-* [Vimm's Lair: The Vault](https://vimm.net/?p=vault){:target="_blank" rel="noopener"}
 
 ## Valve
 * [Proton](https://github.com/ValveSoftware/Proton){:target="_blank" rel="noopener"}
