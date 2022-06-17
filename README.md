@@ -1,6 +1,3 @@
-# Steam Deck Resources
-[![gh-pages deploy](https://github.com/studyhog/deck/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/studyhog/deck/actions/workflows/pages/pages-build-deployment)
-
 ## Emulation
 
 Title | Watchers | Forks | Stars
