@@ -22,6 +22,7 @@ Title | Watchers | Forks | Stars
 [The Ultimate Steam Deck Emulation Setup](https://www.youtube.com/watch?v=ylErPAL2cj0){:target="_blank" rel="noopener"} | ![YouTube Video Views](https://img.shields.io/youtube/views/ylErPAL2cj0?style=social) | |
 
 ## Plugins
+
 Title | Watchers | Forks | Stars
 ----- | -------- | ----- | -----
 [PluginLoader](https://github.com/SteamDeckHomebrew/PluginLoader){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/SteamDeckHomebrew/PluginLoader) | ![GitHub forks](https://img.shields.io/github/forks/SteamDeckHomebrew/PluginLoader?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/SteamDeckHomebrew/PluginLoader?style=social)
