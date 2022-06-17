@@ -21,7 +21,7 @@
 ## Valve
 * [Proton](https://github.com/ValveSoftware/Proton){:target="_blank" rel="noopener"}
 * [SteamOS community tracker](https://github.com/ValveSoftware/SteamOS){:target="_blank" rel="noopener"}
-* [Steam Deck - Steam News Hub](https://store.steampowered.com/news/app/1675200)
+* [Steam Deck - Steam News Hub](https://store.steampowered.com/news/app/1675200){:target="_blank" rel="noopener"}
 
 ## Other
 * [Order estimate calculator](https://github.com/MooNag/steam-deck-calculator){:target="_blank" rel="noopener"}
