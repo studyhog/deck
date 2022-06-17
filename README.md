@@ -3,6 +3,7 @@
 
 ## Emulation
 * [Emudeck](https://github.com/dragoonDorise/EmuDeck){:target="_blank" rel="noopener"}
+* [EmulationStation DE](https://gitlab.com/es-de/emulationstation-de){:target="_blank" rel="noopener"}
 * [PPSSPP](https://github.com/hrydgard/ppsspp){:target="_blank" rel="noopener"}
 * [RetroDECK](https://github.com/XargonWan/RetroDECK){:target="_blank" rel="noopener"}
 * [RPCS3](https://github.com/RPCS3/rpcs3){:target="_blank" rel="noopener"}
