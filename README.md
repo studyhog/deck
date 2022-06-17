@@ -1,5 +1,5 @@
 
-## Emulation
+# Emulation
 
 Title | Watchers | Forks | Stars
 ----- | -------- | ----- | -----
@@ -11,7 +11,7 @@ Title | Watchers | Forks | Stars
 [Xemu](https://github.com/mborgerson/xemu){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/mborgerson/xemu) | ![GitHub forks](https://img.shields.io/github/forks/mborgerson/xemu?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/mborgerson/xemu?style=social)
 [Yuzu](https://github.com/yuzu-emu/yuzu){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/yuzu-emu/yuzu) | ![GitHub forks](https://img.shields.io/github/forks/yuzu-emu/yuzu?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/yuzu-emu/yuzu?style=social)
 
-## Guides
+# Guides
 
 Title | Watchers | Forks | Stars
 ----- | -------- | ----- | -----
@@ -19,18 +19,18 @@ Title | Watchers | Forks | Stars
 [Steam Deck Guide](https://github.com/mikeroyal/Steam-Deck-Guide){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/mikeroyal/Steam-Deck-Guide) | ![GitHub forks](https://img.shields.io/github/forks/mikeroyal/Steam-Deck-Guide?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/mikeroyal/Steam-Deck-Guide?style=social)
 [The Ultimate Steam Deck Emulation Setup](https://www.youtube.com/watch?v=ylErPAL2cj0){:target="_blank" rel="noopener"} | ![YouTube Video Views](https://img.shields.io/youtube/views/ylErPAL2cj0?style=social) | |
 
-## Plugins
+# Plugins
 
 Title | Watchers | Forks | Stars
 ----- | -------- | ----- | -----
 [PluginLoader](https://github.com/SteamDeckHomebrew/PluginLoader){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/SteamDeckHomebrew/PluginLoader) | ![GitHub forks](https://img.shields.io/github/forks/SteamDeckHomebrew/PluginLoader?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/SteamDeckHomebrew/PluginLoader?style=social)
 [PowerTools](https://github.com/NGnius/PowerTools){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/NGnius/PowerTools) | ![GitHub forks](https://img.shields.io/github/forks/NGnius/PowerTools?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/NGnius/PowerTools?style=social)
 
-## Valve
+# Valve
 * [Proton](https://github.com/ValveSoftware/Proton){:target="_blank" rel="noopener"}
 * [SteamOS community tracker](https://github.com/ValveSoftware/SteamOS){:target="_blank" rel="noopener"}
 * [Steam Deck - Steam News Hub](https://store.steampowered.com/news/app/1675200){:target="_blank" rel="noopener"}
 
-## Other
+# Other
 * [Order estimate calculator](https://github.com/MooNag/steam-deck-calculator){:target="_blank" rel="noopener"}
 * [ProtonDB](https://www.protondb.com/){:target="_blank" rel="noopener"}
