@@ -26,6 +26,13 @@ Title | Watchers | Forks | Stars
 [PluginLoader](https://github.com/SteamDeckHomebrew/PluginLoader){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/SteamDeckHomebrew/PluginLoader) | ![GitHub forks](https://img.shields.io/github/forks/SteamDeckHomebrew/PluginLoader?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/SteamDeckHomebrew/PluginLoader?style=social)
 [PowerTools](https://github.com/NGnius/PowerTools){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/NGnius/PowerTools) | ![GitHub forks](https://img.shields.io/github/forks/NGnius/PowerTools?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/NGnius/PowerTools?style=social)
 
+# <a name="Roms"></a>[Roms](#Roms)
+
+Title | Watchers | Forks | Stars
+----- | -------- | ----- | -----
+[Steam ROM Manager](https://github.com/SteamGridDB/steam-rom-manager){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/SteamGridDB/steam-rom-manager) | ![GitHub forks](https://img.shields.io/github/forks/SteamGridDB/steam-rom-manager?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/SteamGridDB/steam-rom-manager?style=social)
+
+
 # <a name="Valve"></a>[Valve](#Valve)
 * [Proton](https://github.com/ValveSoftware/Proton){:target="_blank" rel="noopener"}
 * [SteamOS community tracker](https://github.com/ValveSoftware/SteamOS){:target="_blank" rel="noopener"}
