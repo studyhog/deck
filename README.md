@@ -13,7 +13,7 @@
 ## Guides
 * [Emulation Guide](https://github.com/nchristopher/steamdeck-emulation){:target="_blank" rel="noopener"}
 * [Steam Deck Guide](https://github.com/mikeroyal/Steam-Deck-Guide){:target="_blank" rel="noopener"}
-* [The Ultimate Steam Deck Emulation Setup](https://www.youtube.com/watch?v=ylErPAL2cj0){:target="_blank" rel="noopener"}
+* [The Ultimate Steam Deck Emulation Setup](https://www.youtube.com/watch?v=ylErPAL2cj0){:target="_blank" rel="noopener"}  ![YouTube Video Views](https://img.shields.io/youtube/views/ylErPAL2cj0?style=social)
 
 ## Plugins
 * [PluginLoader](https://github.com/SteamDeckHomebrew/PluginLoader){:target="_blank" rel="noopener"}
