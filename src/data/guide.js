@@ -58,5 +58,25 @@ export const GUIDE_RESOURCES = [
                 "src": "https://img.shields.io/youtube/likes/ylErPAL2cj0?style=social"
             }
         ]
+    },
+    {
+        "title": "Emulation Mega Guide (ft. EmuDeck)",
+        "link": "https://www.youtube.com/watch?v=AvzSHxccmIg",
+        "type": "video",
+        "description": "Yet another emulation guide featuring EmuDeck",
+        "badges": [
+            {
+                "alt": "YouTube Video Views",
+                "src": "https://img.shields.io/youtube/views/AvzSHxccmIg?style=social"
+            },
+            {
+                "alt": "YouTube Video Comments",
+                "src": "https://img.shields.io/youtube/comments/AvzSHxccmIg?style=social"
+            },
+            {
+                "alt": "YouTube Video Likes",
+                "src": "https://img.shields.io/youtube/likes/AvzSHxccmIg?style=social"
+            }
+        ]
     }
 ]
