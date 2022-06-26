@@ -1,43 +1,70 @@
+# Getting Started with Create React App
 
-# <a name="Emulation"></a>[Emulation](#Emulation)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Title | Watchers | Forks | Stars
------ | -------- | ----- | -----
-[Emudeck](https://github.com/dragoonDorise/EmuDeck){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/dragoonDorise/EmuDeck) | ![GitHub forks](https://img.shields.io/github/forks/dragoonDorise/EmuDeck?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/dragoonDorise/EmuDeck?style=social)
-[EmulationStation DE](https://gitlab.com/es-de/emulationstation-de){:target="_blank" rel="noopener"} | | |
-[PPSSPP](https://github.com/hrydgard/ppsspp){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/hrydgard/ppsspp) | ![GitHub forks](https://img.shields.io/github/forks/hrydgard/ppsspp?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/hrydgard/ppsspp?style=social)
-[RetroDECK](https://github.com/XargonWan/RetroDECK){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/XargonWan/RetroDECK) | ![GitHub forks](https://img.shields.io/github/forks/XargonWan/RetroDECK?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/XargonWan/RetroDECK?style=social)
-[RPCS3](https://github.com/RPCS3/rpcs3){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/RPCS3/rpcs3) | ![GitHub forks](https://img.shields.io/github/forks/RPCS3/rpcs3?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/RPCS3/rpcs3?style=social)
-[Xemu](https://github.com/mborgerson/xemu){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/mborgerson/xemu) | ![GitHub forks](https://img.shields.io/github/forks/mborgerson/xemu?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/mborgerson/xemu?style=social)
-[Yuzu](https://github.com/yuzu-emu/yuzu){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/yuzu-emu/yuzu) | ![GitHub forks](https://img.shields.io/github/forks/yuzu-emu/yuzu?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/yuzu-emu/yuzu?style=social)
+## Available Scripts
 
-# <a name="Guides"></a>[Guides](#Guides)
+In the project directory, you can run:
 
-Title | Watchers | Forks | Stars
------ | -------- | ----- | -----
-[Emulation Guide](https://github.com/nchristopher/steamdeck-emulation){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/nchristopher/steamdeck-emulation) | ![GitHub forks](https://img.shields.io/github/forks/nchristopher/steamdeck-emulation?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/nchristopher/steamdeck-emulation?style=social)
-[Steam Deck Guide](https://github.com/mikeroyal/Steam-Deck-Guide){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/mikeroyal/Steam-Deck-Guide) | ![GitHub forks](https://img.shields.io/github/forks/mikeroyal/Steam-Deck-Guide?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/mikeroyal/Steam-Deck-Guide?style=social)
-[The Ultimate Steam Deck Emulation Setup](https://www.youtube.com/watch?v=ylErPAL2cj0){:target="_blank" rel="noopener"} | ![YouTube Video Views](https://img.shields.io/youtube/views/ylErPAL2cj0?style=social) | |
+### `npm start`
 
-# <a name="Plugins"></a>[Plugins](#Plugins)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Title | Watchers | Forks | Stars
------ | -------- | ----- | -----
-[PluginLoader](https://github.com/SteamDeckHomebrew/PluginLoader){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/SteamDeckHomebrew/PluginLoader) | ![GitHub forks](https://img.shields.io/github/forks/SteamDeckHomebrew/PluginLoader?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/SteamDeckHomebrew/PluginLoader?style=social)
-[PowerTools](https://github.com/NGnius/PowerTools){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/NGnius/PowerTools) | ![GitHub forks](https://img.shields.io/github/forks/NGnius/PowerTools?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/NGnius/PowerTools?style=social)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# <a name="Roms"></a>[Roms](#Roms)
+### `npm test`
 
-Title | Watchers | Forks | Stars
------ | -------- | ----- | -----
-[Steam ROM Manager](https://github.com/SteamGridDB/steam-rom-manager){:target="_blank" rel="noopener"} | ![GitHub watchers](https://img.shields.io/github/watchers/SteamGridDB/steam-rom-manager) | ![GitHub forks](https://img.shields.io/github/forks/SteamGridDB/steam-rom-manager?style=social) | ![GitHub Repo stars](https://img.shields.io/github/stars/SteamGridDB/steam-rom-manager?style=social)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-# <a name="Valve"></a>[Valve](#Valve)
-* [Proton](https://github.com/ValveSoftware/Proton){:target="_blank" rel="noopener"}
-* [SteamOS community tracker](https://github.com/ValveSoftware/SteamOS){:target="_blank" rel="noopener"}
-* [Steam Deck - Steam News Hub](https://store.steampowered.com/news/app/1675200){:target="_blank" rel="noopener"}
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# <a name="Other"></a>[Other](#Other)
-* [Order estimate calculator](https://github.com/MooNag/steam-deck-calculator){:target="_blank" rel="noopener"}
-* [ProtonDB](https://www.protondb.com/){:target="_blank" rel="noopener"}
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
