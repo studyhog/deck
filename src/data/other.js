@@ -18,5 +18,13 @@ export const OTHER_RESOURCES = [
         "src": "https://img.shields.io/github/stars/MooNag/steam-deck-calculator?style=social"
       },
     ]
+  },
+  {
+    "title": "Steam Deck Life",
+    "link": "https://steamdecklife.com/",
+    "type": "link",
+    "description": 'Compilation of latest news, tips and tricks for the Steam Deck.',
+    "badges": [
+    ]
   }
 ]
