@@ -47,5 +47,25 @@ export const PLUGIN_RESOURCES = [
         "src": "https://img.shields.io/github/stars/NGnius/PowerTools?style=social"
       },
     ]
+  },
+  {
+    "title": "Crankshaft",
+    "link": "https://github.com/CrankshaftForSteam/crankshaft",
+    "type": "repo",
+    "description": "Steam client plugin manager and framework.",
+    "badges": [
+      {
+        "alt": "GitHub Watchers",
+        "src": "https://img.shields.io/github/watchers/CrankshaftForSteam/crankshaft?style=social"
+      },
+      {
+        "alt": "GitHub Forks",
+        "src": "https://img.shields.io/github/forks/CrankshaftForSteam/crankshaft?style=social"
+      },
+      {
+        "alt": "GitHub Stars",
+        "src": "https://img.shields.io/github/stars/CrankshaftForSteam/crankshaft?style=social"
+      },
+    ]
   }
 ]
