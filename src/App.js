@@ -1,16 +1,17 @@
 import "./App.css";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
+import {createTheme, ThemeProvider} from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
-import { Page } from "./components/Page";
-import { Header } from "./components/Header";
-import { EMULATION_RESOURCES } from "./data/emulation";
-import { GUIDE_RESOURCES } from "./data/guide";
-import { PLUGIN_RESOURCES } from "./data/plugin";
-import { ROM_RESOURCES } from "./data/rom";
-import { VALVE_RESOURCES } from "./data/valve";
-import { OTHER_RESOURCES } from "./data/other";
-import { GAME_REVIEW_RESOURCES } from "./data/game_review";
-import { resourceTitleComparator } from "./utils";
+import {Page} from "./components/Page";
+import {Header} from "./components/Header";
+import {EMULATION_RESOURCES} from "./data/emulation";
+import {GUIDE_RESOURCES} from "./data/guide";
+import {PLUGIN_RESOURCES} from "./data/plugin";
+import {ROM_RESOURCES} from "./data/rom";
+import {VALVE_RESOURCES} from "./data/valve";
+import {OTHER_RESOURCES} from "./data/other";
+import {GAME_REVIEW_RESOURCES} from "./data/game_review";
+import {NON_STEAM_LAUNCHER_RESOURCES} from "./data/non_steam_launcher";
+import {resourceTitleComparator} from "./utils";
 
 const darkTheme = createTheme({
   palette: {
@@ -24,6 +25,7 @@ const ALL_RESOURCES = {
   "Plugins": PLUGIN_RESOURCES,
   "ROM": ROM_RESOURCES,
   "Valve": VALVE_RESOURCES,
+  "Launchers": NON_STEAM_LAUNCHER_RESOURCES,
   "Game Performance/Reviews": GAME_REVIEW_RESOURCES,
   "Other": OTHER_RESOURCES,
 }

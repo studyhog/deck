@@ -34,5 +34,14 @@ export const GAME_REVIEW_RESOURCES = [
     "badges": [
 
     ],
+  },
+  {
+    "title": "RPCS3 on Deck Compatibility list (Google sheet)",
+    "link": "https://docs.google.com/spreadsheets/d/1EzTcNoKiBaMS4orZrGEOKwMpFOZEFKVSOZjLRJqzEkA/",
+    "type": "link",
+    "description": "Crowdsourced Google sheet of RPCS3 games compatible with the Steam Deck",
+    "badges": [
+
+    ],
   }
 ]
