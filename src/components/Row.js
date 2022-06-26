@@ -5,6 +5,8 @@ import Badge from "@mui/material/Badge";
 
 const SHIELDS_URL = "https://img.shields.io/badge/";
 
+const shorten = (s, maxLen=10) => s.length > maxLen ? `${s.slice(0, 10)}...` : s;
+
 export const Row = ({rowKey, title, badges, link, description}) => {
   const hyperlink = <Link
     href={link}
@@ -17,7 +19,7 @@ export const Row = ({rowKey, title, badges, link, description}) => {
   while (availableBadges.length !== 3) {
     availableBadges.push({
       "alt": title,
-      "src": `${SHIELDS_URL}${title}-inactive`
+      "src": `${SHIELDS_URL}${shorten(title)}-inactive`
     })
   }
   return <TableRow
