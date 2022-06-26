@@ -80,6 +80,14 @@ export const GUIDE_RESOURCES = [
         ]
     },
     {
+        "title": "Tutorial playlist maintained by u/OppositeDayIs2morrow on YT",
+        "link": "https://www.youtube.com/playlist?list=PLSRnaMk00er6W40_g9TgqPH_erg2E-iOZ",
+        "type": "video",
+        "description": "Youtube playlist of various Steam Deck tutorials maintained by u/OppositeDayIs2morrow",
+        "badges": [
+        ]
+    },
+    {
         "title": "ProtonUp",
         "link": "https://github.com/AUNaseef/protonup",
         "type": "repo",
