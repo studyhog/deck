@@ -1,6 +1,6 @@
 export const ROM_RESOURCES = [
   {
-    "title": "Plugin Loader",
+    "title": "Steam ROM Manager",
     "link": "https://github.com/SteamGridDB/steam-rom-manager",
     "type": "repo",
     "description": "Steam ROM Manager is a super flexible tool for adding non-Steam games to steam in bulk and managing their artwork assets. Added games could be ROMs for emulators, games from other stores such as Epic or GOG, or even not games at all.",

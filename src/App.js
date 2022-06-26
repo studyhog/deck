@@ -24,8 +24,8 @@ const ALL_RESOURCES = {
   "Plugins": PLUGIN_RESOURCES,
   "ROM": ROM_RESOURCES,
   "Valve": VALVE_RESOURCES,
-  "Other": OTHER_RESOURCES,
   "Game Performance/Reviews": GAME_REVIEW_RESOURCES,
+  "Other": OTHER_RESOURCES,
 }
 
 function App() {

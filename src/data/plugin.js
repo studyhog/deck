@@ -1,6 +1,15 @@
 export const PLUGIN_RESOURCES = [
   {
-    "title": "Plugin Loader",
+    "title": "Deckbrew Plugins",
+    "link": "https://plugins.deckbrew.xyz/",
+    "type": "link",
+    "description": "List of plugins published on DeckBrew repository",
+    "badges": [
+
+    ]
+  },
+  {
+    "title": "DeckBrew Plugin Loader",
     "link": "https://github.com/SteamDeckHomebrew/PluginLoader",
     "type": "repo",
     "description": "A plugin loader for the Steam Deck.",
