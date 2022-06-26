@@ -26,5 +26,13 @@ export const OTHER_RESOURCES = [
     "description": 'Compilation of latest news, tips and tricks for the Steam Deck.',
     "badges": [
     ]
+  },
+  {
+    "title": "Steam Deck Tips & Tricks megathread (r/SteamDeckTricks)",
+    "link": "https://www.reddit.com/r/SteamDeckTricks/comments/twulqf/tips_and_tricks_megathread/",
+    "type": "link",
+    "description": 'SteamDeck Tips and Tricks Megathread',
+    "badges": [
+    ]
   }
 ]
