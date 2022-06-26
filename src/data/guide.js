@@ -78,5 +78,25 @@ export const GUIDE_RESOURCES = [
                 "src": "https://img.shields.io/youtube/likes/AvzSHxccmIg?style=social"
             }
         ]
+    },
+    {
+        "title": "ProtonUp",
+        "link": "https://github.com/AUNaseef/protonup",
+        "type": "repo",
+        "description": "CLI program and API to automate the installation and update of GloriousEggroll's Proton-GE",
+        "badges": [
+            {
+                "alt": "GitHub Watchers",
+                "src": "https://img.shields.io/github/watchers/AUNaseef/protonup?style=social"
+            },
+            {
+                "alt": "GitHub Forks",
+                "src": "https://img.shields.io/github/forks/AUNaseef/protonup?style=social"
+            },
+            {
+                "alt": "GitHub Stars",
+                "src": "https://img.shields.io/github/stars/AUNaseef/protonup?style=social"
+            },
+        ]
     }
 ]
