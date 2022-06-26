@@ -43,7 +43,7 @@ export const GUIDE_RESOURCES = [
         "title": "The Ultimate Steam Deck Emulation Setup",
         "link": "https://www.youtube.com/watch?v=ylErPAL2cj0",
         "type": "video",
-        "description": "After a few weeks of tinkering, I finally have my Steam Deck set up exactly the way I like.  This video will show you my setup, which is a combination of EmuDeck, EmulationStation, Xbox Cloud Gaming, standalone Linux games, and my Steam library.",
+        "description": "A video by Retro Game Corps that shows the author's setup, which is a combination of EmuDeck, EmulationStation, Xbox Cloud Gaming, standalone Linux games, and the author's Steam library.",
         "badges": [
             {
                 "alt": "YouTube Video Views",

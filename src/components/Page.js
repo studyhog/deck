@@ -7,7 +7,7 @@ import TableBody from "@mui/material/TableBody";
 import {Row} from "./Row";
 
 export const Page = ({title, resources}) => {
-  const columns = [title, "Watchers", "Forks", "Stars", "Description"];
+  const columns = ["Resource", "Watchers", "Forks", "Stars", "Description"];
   const tableRowKey = `${title}-TableRow`;
   return (
     <TableContainer>
