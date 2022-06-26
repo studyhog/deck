@@ -25,5 +25,14 @@ export const GAME_REVIEW_RESOURCES = [
     "badges": [
 
     ],
+  },
+  {
+    "title": "CheckMyDeck",
+    "link": "https://checkmydeck.herokuapp.com/",
+    "type": "link",
+    "description": "Enter your Steam ID to check the Steam Deck compatibility of your library.",
+    "badges": [
+
+    ],
   }
 ]
