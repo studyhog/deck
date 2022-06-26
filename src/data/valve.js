@@ -45,7 +45,19 @@ export const VALVE_RESOURCES = [
     "type": "link",
     "description": "Steam News Hub (steam store page for Steam Deck news)",
     "badges": [
-      
+
     ]
+  },
+  {
+    "title": "SteamOS DevKit",
+    "link": "https://gitlab.steamos.cloud/devkit",
+    "type": "repo",
+    "description": "SteamOS Devkit client and server",
+    "badges": [
+      {
+        "alt": "GitLab (self-managed) contributors",
+        "src": "https://img.shields.io/gitlab/v/contributor/devkit/steamos-devkit?gitlab_url=https%3A%2F%2Fgitlab.steamos.cloud%2F"
+      }
+    ],
   }
 ]

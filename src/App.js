@@ -9,6 +9,7 @@ import { PLUGIN_RESOURCES } from "./data/plugin";
 import { ROM_RESOURCES } from "./data/rom";
 import { VALVE_RESOURCES } from "./data/valve";
 import { OTHER_RESOURCES } from "./data/other";
+import { resourceTitleComparator } from "./utils";
 
 const darkTheme = createTheme({
   palette: {
@@ -32,22 +33,23 @@ function App() {
         background: darkTheme.palette.background.default,
       }}>
         <Header title={"Steam Deck Resources"}/>
-        {Object.entries(ALL_RESOURCES).map(([title, resources], i) =>
-          <div key={`${title}-${i}-container-div`}>
+        {Object.entries(ALL_RESOURCES).map(([title, resources], i) => {
+          const sortedResources = resources.sort(resourceTitleComparator);
+          return <div key={`${title}-${i}-container-div`}>
             <Typography
               variant="h6"
-              sx={{ flexGrow: 1 }}
+              sx={{flexGrow: 1}}
               color={darkTheme.palette.text.primary}
             >
               {title}
             </Typography>
             <Page
               title={title}
-              resources={resources}
+              resources={sortedResources}
             />
             <br/>
           </div>
-        )}
+        })}
       </div>
     </ThemeProvider>
   );
