@@ -18,14 +18,5 @@ export const OTHER_RESOURCES = [
         "src": "https://img.shields.io/github/stars/MooNag/steam-deck-calculator?style=social"
       },
     ]
-  },
-  {
-    "title": "ProtonDb",
-    "link": "https://www.protondb.com/",
-    "type": "link",
-    "description": "Home for crowdsourced Linux and Steam Deck game compatibility reports",
-    "badges": [
-
-    ]
   }
 ]

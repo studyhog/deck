@@ -9,6 +9,7 @@ import { PLUGIN_RESOURCES } from "./data/plugin";
 import { ROM_RESOURCES } from "./data/rom";
 import { VALVE_RESOURCES } from "./data/valve";
 import { OTHER_RESOURCES } from "./data/other";
+import { GAME_REVIEW_RESOURCES } from "./data/game_review";
 import { resourceTitleComparator } from "./utils";
 
 const darkTheme = createTheme({
@@ -19,11 +20,12 @@ const darkTheme = createTheme({
 
 const ALL_RESOURCES = {
   "Emulation": EMULATION_RESOURCES,
-  "Guide": GUIDE_RESOURCES,
-  "Plugin": PLUGIN_RESOURCES,
+  "Guides": GUIDE_RESOURCES,
+  "Plugins": PLUGIN_RESOURCES,
   "ROM": ROM_RESOURCES,
   "Valve": VALVE_RESOURCES,
   "Other": OTHER_RESOURCES,
+  "Game Performance/Reviews": GAME_REVIEW_RESOURCES,
 }
 
 function App() {
