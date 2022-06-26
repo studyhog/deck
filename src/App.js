@@ -9,6 +9,7 @@ import {PLUGIN_RESOURCES} from "./data/plugin";
 import {ROM_RESOURCES} from "./data/rom";
 import {VALVE_RESOURCES} from "./data/valve";
 import {OTHER_RESOURCES} from "./data/other";
+import {SCRIPT_RESOURCES} from "./data/script";
 import {GAME_REVIEW_RESOURCES} from "./data/game_review";
 import {NON_STEAM_LAUNCHER_RESOURCES} from "./data/non_steam_launcher";
 import {resourceTitleComparator} from "./utils";
@@ -27,6 +28,7 @@ const ALL_RESOURCES = {
   "Valve": VALVE_RESOURCES,
   "Launchers": NON_STEAM_LAUNCHER_RESOURCES,
   "Game Performance/Reviews": GAME_REVIEW_RESOURCES,
+  "Scripts": SCRIPT_RESOURCES,
   "Other": OTHER_RESOURCES,
 }
 
