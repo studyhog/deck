@@ -1,5 +1,14 @@
 export const GAME_REVIEW_RESOURCES = [
   {
+    "title": "ProtonDb",
+    "link": "https://www.protondb.com/",
+    "type": "link",
+    "description": "Home for crowdsourced Linux and Steam Deck game compatibility reports",
+    "badges": [
+
+    ]
+  },
+  {
     "title": "ShareDeck",
     "link": "https://www.sharedeck.games/",
     "type": "link",
