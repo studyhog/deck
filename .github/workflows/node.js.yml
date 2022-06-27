@@ -19,6 +19,13 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - run: ls
+    - run: ls -ltR docs/
     - run: git status
-    - run: echo "git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.job }}"
+    - name: Dump GitHub context
+      id: github_context_step
+      run: echo '${{ toJSON(github) }}'
+    - name: Dump Job context
+      id: job_context_step
+      run: echo '${{ toJSON(job) }}'
+#    - run: "git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.job }}"
+#    - run: git add .
