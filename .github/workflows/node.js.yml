@@ -21,3 +21,4 @@ jobs:
     - run: npm run build --if-present
     - run: ls
     - run: git status
+    - run: echo "git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.job }}"
