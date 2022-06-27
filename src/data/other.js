@@ -28,6 +28,26 @@ export const OTHER_RESOURCES = [
     ]
   },
   {
+    "title": "SDeck.wiki",
+    "link": "https://www.sdeck.wiki/",
+    "type": "link",
+    "description": 'Collection of steam deck resources (this very page).',
+    "badges": [
+      {
+        "alt": "GitHub Watchers",
+        "src": "https://img.shields.io/github/watchers/studyhog/deck?style=social"
+      },
+      {
+        "alt": "GitHub Forks",
+        "src": "https://img.shields.io/github/forks/studyhog/deck?style=social"
+      },
+      {
+        "alt": "GitHub Stars",
+        "src": "https://img.shields.io/github/stars/studyhog/deck?style=social"
+      },
+    ]
+  },
+  {
     "title": "Steam Deck Tips & Tricks megathread (r/SteamDeckTricks)",
     "link": "https://www.reddit.com/r/SteamDeckTricks/comments/twulqf/tips_and_tricks_megathread/",
     "type": "link",
