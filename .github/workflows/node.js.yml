@@ -20,12 +20,6 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
-    - run: npm ci
-    - run: npm run build --if-present
-    - name: Recreate CNAME for gh-pages
-      run: echo "www.sdeck.wiki" > docs/CNAME
-    - run: ls -ltR docs/
-    - run: git status
 #    - name: Dump GitHub context
 #      id: github_context_step
 #      run: echo '${{ toJSON(github) }}'
@@ -37,6 +31,13 @@ jobs:
     - run: git clean -fd && git reset --hard
     - run: git checkout prod && git pull
     - run: git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.event.number }}
+    - run: npm ci
+    - run: npm run build --if-present
+    - name: Recreate CNAME for gh-pages
+      run: echo "www.sdeck.wiki" > docs/CNAME
+    - run: ls -ltR docs/
     - run: git add .
+    - run: git status
     - run: git commit -m "Caused by ${{ github.actor }} - ${{ github.event_name }} from ${{ github.head_ref }} to ${{ github.base_ref }} - \#${{ github.event.number }}"
+    - run: git status
     - run: git push -u origin release/${{ github.actor }}-${{ github.event_name }}-${{ github.event.number }}
