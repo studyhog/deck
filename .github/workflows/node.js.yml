@@ -26,12 +26,13 @@ jobs:
       run: echo "www.sdeck.wiki" > docs/CNAME
     - run: ls -ltR docs/
     - run: git status
-    - name: Dump GitHub context
-      id: github_context_step
-      run: echo '${{ toJSON(github) }}'
-    - name: Dump Job context
-      id: job_context_step
-      run: echo '${{ toJSON(job) }}'
-    - run: echo "git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.event.number }}"
-    - run: echo "git add ."
-    - run: echo "git commit -m 'Caused by ${{ github.actor }} - ${{ github.event_name }} from ${{ github.head_ref }} to ${{ github.base_ref }} - \#${{ github.event.number }}'"
+#    - name: Dump GitHub context
+#      id: github_context_step
+#      run: echo '${{ toJSON(github) }}'
+#    - name: Dump Job context
+#      id: job_context_step
+#      run: echo '${{ toJSON(job) }}'
+    - run: git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.event.number }}
+    - run: git add .
+    - run: git commit -m "Caused by ${{ github.actor }} - ${{ github.event_name }} from ${{ github.head_ref }} to ${{ github.base_ref }} - #${{ github.event.number }}"
+    - run: git push -u origin release/${{ github.actor }}-${{ github.event_name }}-${{ github.event.number }}
