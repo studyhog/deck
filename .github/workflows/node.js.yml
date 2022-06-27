@@ -34,5 +34,5 @@ jobs:
 #      run: echo '${{ toJSON(job) }}'
     - run: git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.event.number }}
     - run: git add .
-    - run: git commit -m "Caused by ${{ github.actor }} - ${{ github.event_name }} from ${{ github.head_ref }} to ${{ github.base_ref }} - #${{ github.event.number }}"
+    - run: git commit -m "Caused by ${{ github.actor }} - ${{ github.event_name }} from ${{ github.head_ref }} to ${{ github.base_ref }} - \#${{ github.event.number }}"
     - run: git push -u origin release/${{ github.actor }}-${{ github.event_name }}-${{ github.event.number }}
