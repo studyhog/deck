@@ -32,11 +32,11 @@ jobs:
     - run: git checkout prod && git pull
     - run: git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.event.number }}
     - run: npm ci
-    - run: npm run build --if-present
+    - run: npm run build --if-present && git status
     - name: Recreate CNAME for gh-pages
       run: echo "www.sdeck.wiki" > docs/CNAME
-    - run: ls -ltR docs/
-    - run: git add .
+    - run: ls -ltR docs/ && git status
+    - run: git add . && git status
     - run: git status
     - run: git commit -m "Caused by ${{ github.actor }} - ${{ github.event_name }} from ${{ github.head_ref }} to ${{ github.base_ref }} - \#${{ github.event.number }}"
     - run: git status
