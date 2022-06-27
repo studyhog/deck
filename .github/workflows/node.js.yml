@@ -30,7 +30,7 @@ jobs:
       id: github_context_step
       run: echo '${{ toJSON(github) }}'
     - name: Dump Job context
-      id: job_context_step
+      id: job_context_step1
       run: echo '${{ toJSON(job) }}'
     - run: echo "git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.job }}"
     - run: echo "git add ."
