@@ -28,7 +28,7 @@ jobs:
 #      run: echo '${{ toJSON(job) }}'
     - run: git config user.name github-actions
     - run: git config user.email github-actions@github.com
-    - run: git clean -fd && git reset --hard
+    - run: git clean -fd && git reset --hard && git pull
     - run: git checkout prod && git pull
     - run: git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.event.number }}
     - run: npm ci
