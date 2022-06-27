@@ -32,6 +32,6 @@ jobs:
     - name: Dump Job context
       id: job_context_step
       run: echo '${{ toJSON(job) }}'
-    - run: echo "git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.job }}"
+    - run: echo "git checkout -b release/${{ github.actor }}-${{ github.event_name }}-${{ github.event.number }}"
     - run: echo "git add ."
-    - run: echo "git commit -m 'Deploy triggered by ${{ github.actor }} - ${{ github.event_name }} to ${{ github.event.ref }} - ${{ github.event.message }}'"
+    - run: echo "git commit -m 'Caused by ${{ github.actor }} - ${{ github.event_name }} from ${{ github.head_ref }} to ${{ github.base_ref }} - #${{ github.event.number }}'"
