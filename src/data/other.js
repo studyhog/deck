@@ -31,7 +31,7 @@ export const OTHER_RESOURCES = [
     "title": "sdeck.wiki",
     "link": "https://www.sdeck.wiki/",
     "type": "link",
-    "description": 'Collection of steam deck resources (this very page)!',
+    "description": 'Collection of steam deck resources (this very page).',
     "badges": [
       {
         "alt": "GitHub Watchers",
