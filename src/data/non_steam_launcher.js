@@ -37,4 +37,24 @@ export const NON_STEAM_LAUNCHER_RESOURCES = [
       },
     ],
   },
+  {
+    "title": "Bottles",
+    "link": "https://github.com/bottlesdevs/Bottles",
+    "type": "link",
+    "description": 'Easily run Windows software on Linux with Bottles!',
+    "badges": [
+      {
+        "alt": "GitHub Watchers",
+        "src": "https://img.shields.io/github/watchers/bottlesdevs/Bottles?style=social"
+      },
+      {
+        "alt": "GitHub Forks",
+        "src": "https://img.shields.io/github/forks/bottlesdevs/Bottles?style=social"
+      },
+      {
+        "alt": "GitHub Stars",
+        "src": "https://img.shields.io/github/stars/bottlesdevs/Bottles?style=social"
+      },
+    ]
+  },
 ]
