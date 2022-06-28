@@ -55,7 +55,7 @@ export const EMULATION_RESOURCES = [
         "title": "RetroDECK",
         "link": "https://github.com/XargonWan/RetroDECK",
         "type": "repo",
-        "description": "Easy and fancy enviornment for managing and launching your retro games on Steam Deck without reliying on a custom firmware.",
+        "description": "Inspired by Batocera, RetroPie and AmberELEC, RetroDECK brings an environment to catalog and play your retro games directly to SteamOS and it's tailored specifically for the Steam Deck.",
         "badges": [
             {
                 "alt": "GitHub Watchers",
