@@ -1,7 +1,7 @@
 import "./App.css";
 import {createTheme, ThemeProvider} from "@mui/material/styles";
-import Typography from "@mui/material/Typography";
-import {Page} from "./components/Page";
+import {Routes, Route} from "react-router-dom";
+import {Section} from "./components/Section";
 import {Header} from "./components/Header";
 import {EMULATION_RESOURCES} from "./data/emulation";
 import {GUIDE_RESOURCES} from "./data/guide";
@@ -27,35 +27,66 @@ const ALL_RESOURCES = {
   "ROM": ROM_RESOURCES,
   "Valve": VALVE_RESOURCES,
   "Launchers": NON_STEAM_LAUNCHER_RESOURCES,
-  "Game Performance/Reviews": GAME_REVIEW_RESOURCES,
+  "GameReviews": GAME_REVIEW_RESOURCES,
   "Scripts": SCRIPT_RESOURCES,
   "Other": OTHER_RESOURCES,
 }
+const ALL_RESOURCES_SORTED = Object.fromEntries(
+  Object.entries(ALL_RESOURCES).map(
+    ([title, resources]) => {
+      return [title, resources.sort(resourceTitleComparator)];
+    }
+  )
+);
+
+const Page = ({path, resources}) => {
+  const my_resources = path === "" ? resources : {[path]: resources[path]}
+  return <>
+    {
+      Object.entries(my_resources).map(
+        ([title, availableResources], i) => <Section
+          key={`${title}-${i}-section`}
+          sectionNum={i}
+          title={title}
+          resources={availableResources}
+        />
+      )
+    }
+  </>;
+}
 
 function App() {
+  const resources = ALL_RESOURCES_SORTED;
+  const resourceKeys = Object.keys(resources)
+  const header = <Header
+    title={"Steam Deck Resources"}
+    links={resourceKeys}
+  />;
   return (
     <ThemeProvider theme={darkTheme}>
       <div className="App" style={{
         background: darkTheme.palette.background.default,
       }}>
-        <Header title={"Steam Deck Resources"}/>
-        {Object.entries(ALL_RESOURCES).map(([title, resources], i) => {
-          const sortedResources = resources.sort(resourceTitleComparator);
-          return <div key={`${title}-${i}-container-div`}>
-            <Typography
-              variant="h6"
-              sx={{flexGrow: 1}}
-              color={darkTheme.palette.text.primary}
-            >
-              {title}
-            </Typography>
-            <Page
-              title={title}
-              resources={sortedResources}
+        {header}
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Page path=""
+                    resources={resources}/>
+            }
+          />
+          {Object.keys(resources).map(
+            (title, i) => <Route
+              path={`/${title}`}
+              key={`${title}-${i}-route`}
+              element={
+                <Page path={title}
+                      resources={resources}/>
+              }
             />
-            <br/>
-          </div>
-        })}
+          )}
+        </Routes>
       </div>
     </ThemeProvider>
   );
