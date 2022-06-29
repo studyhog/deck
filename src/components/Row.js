@@ -12,7 +12,7 @@ export const Row = ({rowKey, title, badges, link, description}) => {
     href={link}
     underline="always"
     target="_blank"
-    rel="noreferrer">
+    rel="noopener noreferrer">
     {title}
   </Link>
   const availableBadges = badges || [];

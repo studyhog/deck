@@ -1,63 +1,49 @@
-import "./App.css";
 import {createTheme, ThemeProvider} from "@mui/material/styles";
-import Typography from "@mui/material/Typography";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import {Route, Routes} from "react-router-dom";
 import {Page} from "./components/Page";
 import {Header} from "./components/Header";
-import {EMULATION_RESOURCES} from "./data/emulation";
-import {GUIDE_RESOURCES} from "./data/guide";
-import {PLUGIN_RESOURCES} from "./data/plugin";
-import {ROM_RESOURCES} from "./data/rom";
-import {VALVE_RESOURCES} from "./data/valve";
-import {OTHER_RESOURCES} from "./data/other";
-import {SCRIPT_RESOURCES} from "./data/script";
-import {GAME_REVIEW_RESOURCES} from "./data/game_review";
-import {NON_STEAM_LAUNCHER_RESOURCES} from "./data/non_steam_launcher";
-import {resourceTitleComparator} from "./utils";
-
-const darkTheme = createTheme({
-  palette: {
-    mode: "dark",
-  }
-});
-
-const ALL_RESOURCES = {
-  "Emulation": EMULATION_RESOURCES,
-  "Guides": GUIDE_RESOURCES,
-  "Plugins": PLUGIN_RESOURCES,
-  "ROM": ROM_RESOURCES,
-  "Valve": VALVE_RESOURCES,
-  "Launchers": NON_STEAM_LAUNCHER_RESOURCES,
-  "Game Performance/Reviews": GAME_REVIEW_RESOURCES,
-  "Scripts": SCRIPT_RESOURCES,
-  "Other": OTHER_RESOURCES,
-}
+import {PAGE_RESOURCE_MAP} from "./data/constants";
+import CssBaseline from '@mui/material/CssBaseline';
+import {useState} from "react";
+import "./App.css";
 
 function App() {
+  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+  const resources = PAGE_RESOURCE_MAP;
+  const resourceKeys = Object.keys(resources);
+  const [darkMode, setDarkMode] = useState(prefersDarkMode);
+  const theme = createTheme({
+    palette: {
+      mode: darkMode ? "dark" : "light",
+    }
+  })
+  const header = <Header
+    title={"Steam Deck Resources"}
+    links={resourceKeys}
+    setDarkMode={setDarkMode}
+  />;
   return (
-    <ThemeProvider theme={darkTheme}>
-      <div className="App" style={{
-        background: darkTheme.palette.background.default,
-      }}>
-        <Header title={"Steam Deck Resources"}/>
-        {Object.entries(ALL_RESOURCES).map(([title, resources], i) => {
-          const sortedResources = resources.sort(resourceTitleComparator);
-          return <div key={`${title}-${i}-container-div`}>
-            <Typography
-              variant="h6"
-              sx={{flexGrow: 1}}
-              color={darkTheme.palette.text.primary}
-            >
-              {title}
-            </Typography>
-            <Page
-              title={title}
-              resources={sortedResources}
-            />
-            <br/>
-          </div>
-        })}
-      </div>
-    </ThemeProvider>
+    <CssBaseline enableColorScheme>
+      <ThemeProvider theme={theme}>
+        <div className="App" style={{
+          background: theme.palette.background.default,
+        }}>
+          {header}
+          <Routes>
+            {Object.entries(resources).map(
+              ([title, pageResources], i) => <Route
+                path={`/${title}`}
+                key={`${title}-${i}-route`}
+                element={
+                  <Page resources={pageResources}/>
+                }
+              />
+            )}
+          </Routes>
+        </div>
+      </ThemeProvider>
+    </CssBaseline>
   );
 }
 
