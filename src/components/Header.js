@@ -35,6 +35,7 @@ export const Header = ({title, links, setDarkMode}) => {
   </Typography>;
   const linkComponents = links.map(
     (title, i) => <Button
+      color="inherit"
       key={`${title}-${i}-header-button`}
       onClick={() => navigate(`/${title}`)}
     >
@@ -45,7 +46,7 @@ export const Header = ({title, links, setDarkMode}) => {
     <Toolbar>
       {titleComponent}
       <Button
-        variant="text"
+        color="inherit"
         startIcon={<ListIcon/>}
         onClick={()=>setOpenDrawer(true)}
       >
@@ -58,7 +59,10 @@ export const Header = ({title, links, setDarkMode}) => {
         onClose={()=>setOpenDrawer(false)}
       >
         {linkComponents}
-        <Button onClick={() => {openInNewWindow(GITHUB_REPO_URL)}}>
+        <Button
+          color="inherit"
+          onClick={() => {openInNewWindow(GITHUB_REPO_URL)}}
+        >
           <GitHubIcon/>
         </Button>
       </Drawer>
