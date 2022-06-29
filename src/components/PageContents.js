@@ -8,7 +8,7 @@ import {Row} from "./Row";
 import Typography from "@mui/material/Typography";
 import {useTheme} from "@mui/material";
 
-export const Section = ({sectionNum, title, resources}) => {
+export const PageContents = ({sectionNum, title, resources}) => {
   const theme = useTheme();
   const columns = ["Resource", "Watchers", "Forks", "Stars", "Description"];
   const tableRowKey = `${title}-TableRow`;
