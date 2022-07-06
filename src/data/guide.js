@@ -106,5 +106,25 @@ export const GUIDE_RESOURCES = [
                 "src": "https://img.shields.io/github/stars/AUNaseef/protonup?style=social"
             },
         ]
+    },
+    {
+        "title": "ProtonUp-Qt",
+        "link": "https://github.com/DavidoTek/ProtonUp-Qt",
+        "type": "repo",
+        "description": "Install and manage GE-Proton and Luxtorpeda for Steam and Wine-GE for Lutris with this graphical user interface. For more: https://davidotek.github.io/protonup-qt/",
+        "badges": [
+            {
+                "alt": "GitHub Watchers",
+                "src": "https://img.shields.io/github/watchers/DavidoTek/ProtonUp-Qt?style=social"
+            },
+            {
+                "alt": "GitHub Forks",
+                "src": "https://img.shields.io/github/forks/DavidoTek/ProtonUp-Qt?style=social"
+            },
+            {
+                "alt": "GitHub Stars",
+                "src": "https://img.shields.io/github/stars/DavidoTek/ProtonUp-Qt?style=social"
+            },
+        ]
     }
 ]
