@@ -126,5 +126,13 @@ export const GUIDE_RESOURCES = [
                 "src": "https://img.shields.io/github/stars/DavidoTek/ProtonUp-Qt?style=social"
             },
         ]
+    },
+    {
+        "title": "Steam Deck Controller Guide - A Visual Introduction",
+        "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2804823261",
+        "type": "link",
+        "description": "This guide will get you started on how to use the Steam Deck's controls and how to customize layouts.",
+        "badges": [
+        ]
     }
 ]
