@@ -134,5 +134,13 @@ export const GUIDE_RESOURCES = [
         "description": "This guide will get you started on how to use the Steam Deck's controls and how to customize layouts.",
         "badges": [
         ]
-    }
+    },
+    {
+        "title": "How to run Windows from MicroSD",
+        "link": "https://wagnerstechtalk.com/steamdeck/#Run_Windows_from_microSD",
+        "type": "link",
+        "description": "Guide on how to install Windows to a microSD card.",
+        "badges": [
+        ]
+    },
 ]
