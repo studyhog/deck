@@ -19,4 +19,13 @@ export const SCRIPT_RESOURCES = [
       },
     ],
   },
+  {
+    "title": "Japanese Locale Enabler",
+    "link": "https://gist.github.com/XargonWan/cc660daf92c224b7241cbf5a2bf12c47",
+    "type": "repo",
+    "description": "Script to enable Japanese Locale for third party Japanese games that require it.",
+    "badges": [
+      // Shields.io doesn't seem to support gists yet.
+    ],
+  },
 ]
