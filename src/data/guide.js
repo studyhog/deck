@@ -143,4 +143,24 @@ export const GUIDE_RESOURCES = [
         "badges": [
         ]
     },
+    {
+        "title": "How to use an external ssd",
+        "link": "https://www.youtube.com/watch?v=HMP62KCErDU",
+        "type": "video",
+        "description": "How to use an external ssd with steam deck",
+        "badges": [
+            {
+                "alt": "YouTube Video Views",
+                "src": "https://img.shields.io/youtube/views/HMP62KCErDU?style=social"
+            },
+            {
+                "alt": "YouTube Video Comments",
+                "src": "https://img.shields.io/youtube/comments/HMP62KCErDU?style=social"
+            },
+            {
+                "alt": "YouTube Video Likes",
+                "src": "https://img.shields.io/youtube/likes/HMP62KCErDU?style=social"
+            }
+        ]
+    },
 ]
