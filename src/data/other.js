@@ -62,5 +62,25 @@ export const OTHER_RESOURCES = [
     "description": 'A collection of tweaks and improvements for the Steam Deck',
     "badges": [
     ]
-  }
+  },
+  {
+    "title": "Steam Deck: Frametime, Framepacing and Golden 40 explained",
+    "link": "https://www.youtube.com/watch?v=DA2EqFqIPM4",
+    "type": "video",
+    "description": "40fps@40Hz. Here's why.",
+    "badges": [
+      {
+        "alt": "YouTube Video Views",
+        "src": "https://img.shields.io/youtube/views/DA2EqFqIPM4?style=social"
+      },
+      {
+        "alt": "YouTube Video Comments",
+        "src": "https://img.shields.io/youtube/comments/DA2EqFqIPM4?style=social"
+      },
+      {
+        "alt": "YouTube Video Likes",
+        "src": "https://img.shields.io/youtube/likes/DA2EqFqIPM4?style=social"
+      }
+    ]
+  },
 ]
