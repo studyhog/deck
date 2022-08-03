@@ -57,7 +57,7 @@ export const OTHER_RESOURCES = [
   },
   {
     "title": "A handy collection of Steam Deck software tweaks and improvements (r/SteamDeck)",
-    "link": "reddit.com/r/SteamDeck/comments/wd10cs/a_handy_collection_of_steam_deck_software_tweaks/",
+    "link": "https://www.reddit.com/r/SteamDeck/comments/wd10cs/a_handy_collection_of_steam_deck_software_tweaks/",
     "type": "link",
     "description": 'A collection of tweaks and improvements for the Steam Deck',
     "badges": [
