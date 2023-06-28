@@ -168,7 +168,7 @@ export const GUIDE_RESOURCES = [
         "link": "https://gist.github.com/james2432/a49f035d0f81c8306df28c1be24a08b1",
         "type": "link",
         "description": "Guide on how to setup SSH on steamdeck with private/public keys",
-        "badges": "badges": [
+        "badges": [
             {
                 "alt": "GitHub Gist Stars",
                 "src": "https://img.shields.io/github/gist/stars/a49f035d0f81c8306df28c1be24a08b1"
