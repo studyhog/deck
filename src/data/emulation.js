@@ -111,24 +111,4 @@ export const EMULATION_RESOURCES = [
             },
         ]
     },
-    {
-        "title": "Yuzu",
-        "link": "https://github.com/yuzu-emu/yuzu",
-        "type": "repo",
-        "description": "Nintendo Switch Emulator",
-        "badges": [
-            {
-                "alt": "GitHub Watchers",
-                "src": "https://img.shields.io/github/watchers/yuzu-emu/yuzu?style=social"
-            },
-            {
-                "alt": "GitHub Forks",
-                "src": "https://img.shields.io/github/forks/yuzu-emu/yuzu?style=social"
-            },
-            {
-                "alt": "GitHub Stars",
-                "src": "https://img.shields.io/github/stars/yuzu-emu/yuzu?style=social"
-            },
-        ]
-    },
 ]
