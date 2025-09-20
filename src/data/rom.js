@@ -18,5 +18,13 @@ export const ROM_RESOURCES = [
         "src": "https://img.shields.io/github/stars/SteamGridDB/steam-rom-manager?style=social"
       },
     ]
+  },
+  {
+    "title": "r/ROMs Megathread",
+    "link": "https://r-roms.github.io/",
+    "type": "link",
+    "description": "A community-driven database of ROMs, ISOs, and disk images for retro gaming enthusiasts. Modern games (Switch, PS4, Xbox One, etc.) are not available.",
+    "badges": [
+    ]
   }
 ]

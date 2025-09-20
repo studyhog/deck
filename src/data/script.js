@@ -28,4 +28,24 @@ export const SCRIPT_RESOURCES = [
       // Shields.io doesn't seem to support gists yet.
     ],
   },
+  {
+    "title": "SteamOS Android Waydroid Installer",
+    "link": "https://github.com/ryanrudolfoba/SteamOS-Waydroid-Installer",
+    "type": "repo",
+    "description": "A collection of tools that is packaged into an easy to use script that is streamlined and tested to work with the Steam Deck running on SteamOS.",
+    "badges": [
+      {
+        "alt": "GitHub Watchers",
+        "src": "https://img.shields.io/github/watchers/ryanrudolfoba/SteamOS-Waydroid-Installer?style=social"
+      },
+      {
+        "alt": "GitHub Forks",
+        "src": "https://img.shields.io/github/forks/ryanrudolfoba/SteamOS-Waydroid-Installer?style=social"
+      },
+      {
+        "alt": "GitHub Stars",
+        "src": "https://img.shields.io/github/stars/ryanrudolfoba/SteamOS-Waydroid-Installer?style=social"
+      },
+    ],
+  }
 ]
