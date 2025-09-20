@@ -111,4 +111,31 @@ export const EMULATION_RESOURCES = [
             },
         ]
     },
+    {
+        "title": "Lindbergh Loader",
+        "link": "https://github.com/lindbergh-loader/lindbergh-loader",
+        "type": "repo",
+        "description": "Lindbergh Loader is a tool to launch Sega Lindbergh arcade games on PC hardware.",
+        "badges": [
+            {
+                "alt": "GitHub Watchers",
+                "src": "https://img.shields.io/github/watchers/lindbergh-loader/lindbergh-loader?style=social"
+            },
+            {
+                "alt": "GitHub Forks",
+                "src": "https://img.shields.io/github/forks/lindbergh-loader/lindbergh-loader?style=social"
+            },
+            {
+                "alt": "GitHub Stars",
+                "src": "https://img.shields.io/github/stars/lindbergh-loader/lindbergh-loader?style=social"
+            },
+        ]
+    },
+    {
+        "title": "Eden",
+        "link": "https://git.eden-emu.dev/eden-emu/eden",
+        "type": "repo",
+        "description": "Eden is an open-source Nintendo Switch emulator, forked from the Yuzu emulator — started by former Citron developer Camille LaVey and the Eden team. It is written in C++ with portability in mind, and we actively maintain builds for Windows, Linux and Android.",
+        "badges": []
+    }
 ]
