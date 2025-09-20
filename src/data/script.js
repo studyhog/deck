@@ -29,10 +29,10 @@ export const SCRIPT_RESOURCES = [
     ],
   },
   {
-    "title": "Installing Android Apps on Steam Deck using Waydroid",
+    "title": "SteamOS Android Waydroid Installer",
     "link": "https://github.com/ryanrudolfoba/SteamOS-Waydroid-Installer",
     "type": "repo",
-    "description": "A script to install Waydroid on Steam Deck running SteamOS 3.0.",
+    "description": "A collection of tools that is packaged into an easy to use script that is streamlined and tested to work with the Steam Deck running on SteamOS.",
     "badges": [
       {
         "alt": "GitHub Watchers",
